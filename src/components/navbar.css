@@ -1,0 +1,8 @@
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
