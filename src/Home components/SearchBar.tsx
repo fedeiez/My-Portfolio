@@ -5,20 +5,20 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 export default function SearchBar() : JSX.Element {
   const [query, setQuery] = useState<string>('');
 
-  const handleSearch = () => {
+  const handleSearch = () : void => {
     if (!query.trim()) return;
     console.log('Cerco:', query);
-    // qui la logica di ricerca (vedi sotto) DA INSERIRE
+    // qui la logica di ricerca (vedi sotto) DA INSERIRE !!!!!!!!!!!!!!!!!!1111111
   };
 
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>): void => {
     if (e.key === 'Enter') {
       handleSearch();
     }
   };
 
   return (
-    <div className="flex items-center border rounded-md overflow-hidden">
+    <div className="hidden md:flex items-center border rounded-md overflow-hidden">
       <input
         type="text"
         id="searchInput"
