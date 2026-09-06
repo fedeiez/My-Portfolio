@@ -16,6 +16,12 @@ export default function MainHome() {
             </div>
           </div>
           <div className="card bg-gray-100 dark:bg-gray-800 text-black dark:text-gray-100 p-3 lg:basis-1/4 w-96 shadow-sm">
+            <div className="card-body">
+              <h2 className="card-title">Redux Toolkit</h2>
+              <p>I used Redux Toolkit to manage the global state of the application. It provided a simple and efficient way to handle complex state logic and improve the overall performance of the website.</p>
+            </div>
+            </div>
+          <div className="card bg-gray-100 dark:bg-gray-800 text-black dark:text-gray-100 p-3 lg:basis-1/4 w-96 shadow-sm">
           <div className="card-body">
               <h2 className="card-title">TypeScript</h2>
               <p>I used TypeScript to add static typing to my React components, which helps catch errors at compile time and improves code quality.</p>

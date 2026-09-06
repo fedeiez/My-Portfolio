@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="footer sm:footer-horizontal bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 p-10 mt-2">
+        <footer className="footer sm:footer-horizontal bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 p-10 mb-0">
   <nav>
     <h6 className="footer-title">Contact</h6>
     <a >Federica Iezzi</a>

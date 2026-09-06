@@ -1,14 +1,11 @@
 import Navbar from './Home components/Navbar';
 import Footer from './Home components/Footer';
 import Darkmode from './Home components/Darkmode';
-import MainAbout from './About components/MainAbout';
 
-export default function Aboutme() {
+export default function FakeStore() {
     return (<>
         <Darkmode />
         <Navbar />
-        <MainAbout />
         <Footer />
-
-    </>
-    )}
+        </>) 
+}
